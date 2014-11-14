@@ -87,7 +87,7 @@ task main()
     nNxtExitClicks=2;
     StartTask(buttons);
 	setupHighSpeedLink();
-	//waitStart();
+	waitStart();
 	SensorValue[Color] = 0;
 	StartTask(touchSensor);
 	nMotorEncoder[A] = 0;
